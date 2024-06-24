@@ -26,6 +26,18 @@ flutter run
 ```
 
 # Screens
+<div style="display: inline-block;">
+    <img src="IMG_7837.PNG" alt="Image 1" width="200" />
+</div>
+<div style="display: inline-block;">
+    <img src="IMG_7836.PNG" alt="Image 2" width="200" />
+</div>
+<div style="display: inline-block;">
+    <img src="IMG_7838.PNG" alt="Image 3" width="200" />
+</div>
+<div style="display: inline-block;">
+    <img src="IMG_7839.PNG" alt="Image 4" width="200" />
+</div>
 
 ### Card Screen
 The card screen displays a stylish 3D representation of a credit card that can be flipped to reveal additional details such as CVV and expiration date.
@@ -35,10 +47,7 @@ The settings screen offers options for managing user preferences and account set
 
 ### Status Screen
 The status screen provides an overview of the user's financial status, including total balance and income statistics over selected periods represented using interactive charts.
-<img src="IMG_7837.PNG" alt="Alt text" width="200" />
-<img src="IMG_7836.PNG" alt="Alt text" width="200" />
-<img src="IMG_7838.PNG" alt="Alt text" width="200" />
-<img src="IMG_7839.PNG" alt="Alt text" width="200" />
+
 
 ## Features
 
