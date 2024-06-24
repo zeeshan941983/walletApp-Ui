@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 
 import 'package:pocket_io/constrants/widgets/bottom_navigation.dart';
+import 'package:pocket_io/view/notificationScreen/notification_Screen.dart';
+import 'package:pocket_io/view/profile_screen/profile_screen.dart';
+import 'package:pocket_io/view/settings_screen/settings_screen.dart';
 
 import 'package:pocket_io/view/status/status_screen.dart';
 
@@ -49,9 +52,9 @@ class _HomeScreenState extends State<HomeScreen> {
       case 1:
         return const StatusScreen();
       case 2:
-        return const WalletScreen();
+        return const NotificationScreen();
       case 3:
-        return const WalletScreen();
+        return const SettingsScreen();
       default:
         return Container();
     }

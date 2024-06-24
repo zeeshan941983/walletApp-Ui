@@ -13,7 +13,10 @@ class CustomButton extends StatelessWidget {
           fixedSize: WidgetStatePropertyAll(Size.fromHeight(50)),
           shape: WidgetStatePropertyAll(CircleBorder()),
           padding: WidgetStatePropertyAll(EdgeInsets.only(left: 10))),
-      child: Icon(icon),
+      child: Icon(
+        icon,
+        color: Colors.black,
+      ),
     );
   }
 }

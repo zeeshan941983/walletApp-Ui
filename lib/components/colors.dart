@@ -10,4 +10,6 @@ class CustColors {
   static Color chipcolor = const Color(0xffFFD686);
   static Color pickCircle = const Color(0xffD71CDB);
   static Color pureBlack = const Color(0xff000000);
+  static Color iconGreen = const Color(0xff56BE15);
+  static Color iconRed = const Color(0xffFF3333);
 }

@@ -8,12 +8,13 @@ class TransactionDesign extends StatelessWidget {
   final String subtitle;
   final String price;
   final String img;
-  const TransactionDesign(
-      {super.key,
-      required this.subtitle,
-      required this.name,
-      required this.price,
-      required this.img});
+  const TransactionDesign({
+    super.key,
+    required this.subtitle,
+    required this.name,
+    required this.price,
+    required this.img,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -34,7 +35,7 @@ class TransactionDesign extends StatelessWidget {
   }
 }
 
-Widget transaction() {
+Widget transaction(String transactionType, String view) {
   return Column(
     children: [
       Padding(
@@ -43,12 +44,12 @@ Widget transaction() {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             Text(
-              'Last Transaction',
+              transactionType,
               style: GoogleFonts.poppins(
                   color: const Color(0xff2F1155), fontSize: 18),
             ),
             Text(
-              'View All',
+              view,
               style: GoogleFonts.poppins(
                   color: const Color(0xff6E34B8), fontSize: 13),
             ),

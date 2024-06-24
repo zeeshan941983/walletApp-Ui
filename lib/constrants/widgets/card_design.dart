@@ -24,7 +24,7 @@ Widget cardDesign(BuildContext context) {
         child: Stack(
           children: [
             Positioned(
-              left: size.width * 0.02,
+              left: size.width * 0.04,
               top: -size.width * 0.03,
               child: Container(
                 height: 54,

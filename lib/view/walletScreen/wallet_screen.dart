@@ -15,7 +15,7 @@ class WalletScreen extends StatelessWidget {
           topBar(),
           cardDesign(context),
           iconDesign(),
-          transaction(),
+          transaction('Last Transaction', 'View All'),
         ]);
   }
 

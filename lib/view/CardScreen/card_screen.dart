@@ -1,8 +1,8 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:pocket_io/components/colors.dart';
 import 'package:pocket_io/constrants/widgets/custom_button.dart';
+import 'package:pocket_io/constrants/widgets/custom_textbutton.dart';
 
 class CardScreen extends StatefulWidget {
   const CardScreen({super.key});
@@ -125,13 +125,43 @@ class _CardScreenState extends State<CardScreen>
                                         border: Border.all(
                                             color: CustColors.purple, width: 5),
                                         shape: BoxShape.circle),
+                                    child: Center(
+                                      child: Column(
+                                        mainAxisAlignment:
+                                            MainAxisAlignment.center,
+                                        children: [
+                                          Text(
+                                            "CVV",
+                                            style: GoogleFonts.courierPrime(
+                                                color: Colors.white,
+                                                fontSize: 15),
+                                          ),
+                                          Text(
+                                            "512",
+                                            style: GoogleFonts.courierPrime(
+                                                color: Colors.white,
+                                                fontSize: 20),
+                                          ),
+                                        ],
+                                      ),
+                                    ),
                                   )),
                               Align(
                                   alignment: Alignment.center,
-                                  child: Text(
-                                    "4854 9834 **** ****",
-                                    style: GoogleFonts.courierPrime(
-                                        color: Colors.white, fontSize: 25),
+                                  child: Column(
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    children: [
+                                      Text(
+                                        "4854 9834 **** ****",
+                                        style: GoogleFonts.courierPrime(
+                                            color: Colors.white, fontSize: 25),
+                                      ),
+                                      Text(
+                                        "ZEESHAN AHMAD",
+                                        style: GoogleFonts.courierPrime(
+                                            color: Colors.white, fontSize: 20),
+                                      ),
+                                    ],
                                   )),
                               Positioned(
                                   right: -20,
@@ -157,7 +187,7 @@ class _CardScreenState extends State<CardScreen>
                                         color: Colors.white, fontSize: 18),
                                   ),
                                 ),
-                              )
+                              ),
                             ],
                           ),
                         ),
@@ -165,13 +195,11 @@ class _CardScreenState extends State<CardScreen>
                 },
               ),
               Center(
-                child: Text(
-                  "Add a new card \non your wallet for easy life",
-                  textAlign: TextAlign.center,
-                  style: GoogleFonts.poppins(
-                      color: CustColors.pureBlack, fontSize: 15),
-                ),
-              )
+                  child: CustomTextbutton(
+                text: 'Delete Card',
+                color: CustColors.purple,
+                ontap: () {},
+              ))
             ],
           ),
         ),
