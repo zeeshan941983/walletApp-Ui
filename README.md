@@ -36,6 +36,8 @@ The settings screen offers options for managing user preferences and account set
 ### Status Screen
 The status screen provides an overview of the user's financial status, including total balance and income statistics over selected periods represented using interactive charts.
 ![Alt text](IMG_7836.PNG)
+![Alt text](IMG_7837.PNG)
+![Alt text](IMG_7839.PNG)
 
 ## Features
 
