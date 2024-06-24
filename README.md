@@ -28,17 +28,11 @@ flutter run
 # Screens
 <div style="display: inline-block; margin-right: 10px;">
     <img src="IMG_7837.PNG" alt="Image 1" width="200" />
+     <img src="IMG_7836.PNG" alt="Image 2" width="200" />
+      <img src="IMG_7838.PNG" alt="Image 3" width="200" />
+       <img src="IMG_7839.PNG" alt="Image 4" width="200" />
+
 </div>
-<div style="display: inline-block; margin-right: 10px;">
-    <img src="IMG_7836.PNG" alt="Image 2" width="200" />
-</div>
-<div style="display: inline-block; margin-right: 10px;">
-    <img src="IMG_7838.PNG" alt="Image 3" width="200" />
-</div>
-<div style="display: inline-block;">
-    <img src="IMG_7839.PNG" alt="Image 4" width="200" />
-</div>
->
 
 ### Card Screen
 The card screen displays a stylish 3D representation of a credit card that can be flipped to reveal additional details such as CVV and expiration date.
